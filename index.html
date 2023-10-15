@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "style.css">
     <title>Find A Hiking Trail</title>
-    <title>Button</title>
-	<link rel="stylesheet" href= "style.css">
+    <style>
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Find A Trail</a></li>
+                <li><a href="weather.html">Trail Temps</a></li>
+            </ul>
+        </nav>
+    </header>
+    <picture>
+        <source srcset="hiking_overlook.jpg">
+        <img src="Images/hiking_overlook.jpg" style="width:auto;">
+    </picture>
     <h1>Find A Hiking Trail Near You</h1>
-	
-	<label for="site-search">Enter Destination Zip Code:</label>
+    <label for="site-search">Enter Destination Zip Code:</label>
 	<input type="search" id="site-search" name="q" />
 	<button>Take A Hike!</button> 
+    <p class="sub-title"> Check the Weather for Your Hike on the 
+        <a href="weather.html">Trail Temps Page</a>
 </body>
 </html>
