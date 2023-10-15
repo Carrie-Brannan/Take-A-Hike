@@ -6,25 +6,31 @@ header {
     width: 100%;
     height: fit-content;
     font-size: 1.5em;
-    background-color: rgb(17, 10, 1);
-    padding: 10px;  
+    background-color: black;
+    padding: 10px; 
 }
 
-nav a:visited,
-nav a:link {
-    color: rgb(247, 247, 250);
-    text-decoration: none;
-}
-
-nav > ul {
+nav > label {
     display: inline;
-    padding: 4em 4em;
+    padding: 10em 0em;
+    font-size: .75em;
+    color: white;
+}
+nav > input {
+    display: inline;
+    padding: 4px 10px;
+    font-size: .75em;
+    border: 1px solid black;
 }
 
-nav > ul > li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 10px 0px 10px;
+nav > button {
+    display: inline;
+    color: #f9fcf7;
+    background-color: #21880c;
+    font-size: .75em;
+    border: 1px solid #207e2b;
+    padding: 5px 5px;
+    cursor: pointer
 }
 
 body {
@@ -49,31 +55,30 @@ text {
 h1 {
     font-size: 3.5em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: .5em;
     padding-bottom: .5em;
 }
 
-.container {
-    display: flex; /* or inline-flex*/
-}
-
 label {
+    display: inline;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 input {
+    display: inline;
     padding: 4px 20px;
     font-size: 1em;
     border: 1px solid black; 
 }
 
 button {
+    display: inline;
     color: #f9fcf7;
     background-color: #21880c;
     font-size: 19px;
-    border: 4px solid #207e2b;
-    padding: 15px 50px;
+    border: 2px solid #207e2b;
+    padding: 10px 30px;
     cursor: pointer
 }
 
@@ -81,19 +86,3 @@ button:hover {
     color: #000f03;
     background-color: rgb(250, 252, 245);
 }
-
-.sub-title {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.sub-title a:visited,
-.sub-title a:link { 
-    color: rgb(0, 0, 0);
-}
-
-.sub-title a:hover,
-.sub-title a:link {
-    color: #21880c;
-}
-
