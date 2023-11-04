@@ -5,22 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href= "style.css">
     <title>Find A Hiking Trail</title>
+
+    <style>
+        .textbox {
+            /* Setup Flexbox */
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <nav>
-            <label for="site-search">Check the Weather for Your Destination Zip Code:</label>
-	        <input type="search" id="site-search" name="q" />
-	        <button>Go!</button>
+        <nav> Nothing To See Here! Go Take A Hike!
         </nav>
     </header>
     <picture>
         <source srcset="hiking_overlook.jpg">
         <img src="Images/hiking_overlook.jpg" style="width:auto;">
     </picture>
+    
     <h1>Find A Hiking Trail Near You</h1>
+    <div class="textbox">
     <label for="site-search">Enter Destination Zip Code:</label>
-	<input type="search" id="site-search" name="q" />
-	<button>Take A Hike!</button> 
+	<p></p>
+    <input type="search" id="site-search" name="q" />
+	<button>Take A Hike!</button>
+    </div>
 </body>
 </html>

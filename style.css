@@ -1,3 +1,10 @@
+.textbox {
+    background-color: rgba(245,245,220,.5);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
 header {
     display: block;
     position: fixed;
@@ -9,30 +16,14 @@ header {
     background-color: black;
     padding: 10px; 
 }
-
-nav > label {
-    display: inline;
-    padding: 10em 0em;
-    font-size: .75em;
-    color: white;
+nav {
+    color: black;
+    text-align: center;
 }
-nav > input {
-    display: inline;
-    padding: 4px 10px;
-    font-size: .75em;
-    border: 1px solid black;
+nav:hover {
+    color: #21880c;
+    text-shadow: .5px .5px #4e8a42;
 }
-
-nav > button {
-    display: inline;
-    color: #f9fcf7;
-    background-color: #21880c;
-    font-size: .75em;
-    border: 1px solid #207e2b;
-    padding: 5px 5px;
-    cursor: pointer
-}
-
 body {
     background-image: url('Images/hiking_overlook.jpg');
     background-repeat: no-repeat;
@@ -54,26 +45,23 @@ text {
 
 h1 {
     font-size: 3.5em;
+    text-shadow: 2px 2px #f9fcf7;
     text-align: center;
-    padding-top: .5em;
+    padding-top: .25em;
     padding-bottom: .5em;
 }
-
 label {
-    display: inline;
     font-size: 1.5em;
     font-weight: bold;
+    padding: 10px;
 }
-
 input {
-    display: inline;
     padding: 4px 20px;
     font-size: 1em;
     border: 1px solid black; 
 }
 
 button {
-    display: inline;
     color: #f9fcf7;
     background-color: #21880c;
     font-size: 19px;
@@ -83,6 +71,6 @@ button {
 }
 
 button:hover {
-    color: #000f03;
-    background-color: rgb(250, 252, 245);
+    color: #f9fcf7;
+    background-color: rgb(3, 36, 6);
 }
